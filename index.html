@@ -8,32 +8,36 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="page-login">	
-		<div class="page-login__logo">
-			<div class="img-wrap">
-	    		<a href="#"><img src="logo.png" alt="Main Logo"></a>
-			</div>
+	<div class="page-login">
+		<div class="page-login__logo">		
+			<a href="#" class="img-wrap">
+				<img  src="logo.png" alt="Main Logo">
+			</a>
 		</div>
-		<div class="page-login__container">
-			<div class="page-login__container-input">
-				<div class="page-login__clientlogo">	
-					<div class="img-wrap">
-		    			<a href="#"><img src="logo.png" alt="Client Logo"></a>
-					</div>
+		<div class="page-login__container container-wrap">
+			<div class="container-inner">
+				<div class="container-inner_clientlogo">	
+					<a href="#" class="img-wrap">
+						<img src="logo.png" alt="Client Logo">
+					</a>
+				</div>
+				<div class="container-inner_form">
 					<p><span>Workcenter</span></p>
 					<p><span>Auto Filler 1</span></p>
-					<form action="#"  method="post" name="form-wrap">
-					 	<p>
-					 		<label class="page-login__label" for="login-form">Login<br></label>
+					<form class="formgroup" action="#"  method="post" name="form-wrap">
+					 	<div class="login">	
+					 		<label for="login-form">Login<br></label>
 					 		<input id="login-form" class="input-wrap" name="login" type="text" class="input-wrap" required>
 					 		<!--<span>#</span>-->
-					 	</p>
-					 	<p>
-					 		<label class="page-login__label" for="password-form">Password<br></label>
+					 	</div>
+						<div class="password">
+						 	<label for="password-form">Password<br></label>
 							<input id="password-form" class="input-wrap" name="password" type="password"  required>
 							<!--<span>#</span>-->
-						</p>
-						<button class="btn-wrap" type="submit">Log In</button>
+						</div>
+						<div class="btn-form">
+							<button class="btn-wrap" type="submit">Log In</button>
+						</div>
 					</form>
 				</div>
 			</div>
