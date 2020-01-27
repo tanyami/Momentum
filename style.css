@@ -17,12 +17,13 @@ body {
 	padding: 60px;
 }
 .img-wrap {
-    display: inline-block;
+	display: block;
     cursor: pointer;
 }
-.container-inner_clientlogo {
-	display: inline-block;
-	padding-bottom: 10px; 
+.img-wrap img {
+	width: 300px;
+    	height: 86px;
+    	border: 0;
 }
 .page-login__container {
 	padding: 100px 0;
@@ -38,29 +39,33 @@ body {
 	width: 300px;
 	margin: auto;	
 }
+.container-inner_clientlogo {
+	display: inline-block;
+	padding-bottom: 10px; 
+}
 label {
 	display: block;
 	cursor: pointer; 
-	line-height: 20px;
-    	clear: both;
-    	color: #222;
-  	margin: 6px 0 7px;
-   	text-transform: none;
+    line-height: 20px;
+    clear: both;
+    color: #222;
+   	margin: 6px 0 7px;
+    text-transform: none;
 }
 .input-wrap {
 	display: inline-block;
 	box-sizing: border-box;
 	width: 100%;
 	padding: 14px;
-    	border: 1px solid #ced4da;
-   	border-radius: 5px;
-  }
- .btn-form {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.formgroup-btn {
 	margin-top: 30px;
 }
 .btn-wrap {
 	width: 300px;
-	height: 60px;
+    	height: 60px;
 	background: #169bd5;
 	border-radius: 5px;
 	color: #fff;
