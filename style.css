@@ -74,5 +74,8 @@ label {
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349019607843137);
 	transition: all 0.5s ease;
 }
-
+.btn-wrap:hover {
+	background: #16bcd5;
+	color: #fff;
+}
 
