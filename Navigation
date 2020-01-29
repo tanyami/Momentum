@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Navigation</title>
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="nav-panel">
+			<div class="nav-panel-local ">
+				<div class="nav-panel-local__operation">
+					<p>Operation start</p>
+				</div>
+				<nav class="nav-panel-local__items">
+					<ol class="navigation">
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Knowledge</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Production info</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Equipment</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Printer</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Send</a>
+						</li>
+					</ol>
+				</nav>
+			</div>
+			<div class="nav-panel-main container-wrap">	
+				<div class="nav-panel-main__left pannel-group">
+					<a class="pannel-icon" href="#"><i class="fas fa-times"></i><br>Cancel
+					</a>
+				</div>
+				<div class="nav-panel-main__right">
+					<div class="arrow-group">
+						<div class="arrow-block pannel-group">
+							<a class="pannel-icon" href="#"><i class="fas fa-backward"></i><br>Previous Record</a>
+						</div>
+						<div class="arrow-block pannel-group">
+							<a class="pannel-icon" href="#"><i class="fas fa-forward"></i><br>Next Record</a>
+						</div>
+					</div>
+					<div class="vertical">
+						<img src="line.png" alt="Vertical line">
+					</div>
+					<div class="arrow-group step">
+						<div class="arrow-block  pannel-group">
+							<a class="pannel-icon" href="#"><i class="fas fa-step-backward"></i><br>Previous Step</a>
+						</div>
+						<div class="arrow-block pannel-group">
+							<a class="pannel-icon" href="#"><i class="fas fa-step-forward"></i><br>Next Step</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="img-panel">
+		<div class="img-panel-main">
+			<h1>Knowledge Definition Property Title</h1>
+			<img src="img.png" alt="Picture">
+		</div>
+	</div>
+	<nav aria-label="Page navigation" class="pagination">
+		<ul class="pagination_list">
+			<li class="active">
+				<a class="page-link" href="#">1</a>
+			</li>
+			<li>
+				<a class="page-link" href="#">2</a>
+			</li>
+			<li>
+				<a class="page-link" href="#">3</a>
+			</li>
+		</ul>
+	</nav>
+</body>
+</html>
