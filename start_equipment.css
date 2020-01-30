@@ -1,9 +1,9 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1;
-    margin: 0;
-    padding: 0;;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	margin: 0;
+	padding: 0;;
 }
 .nav-panel-local {
 	display: flex;
@@ -18,50 +18,50 @@ body {
 	font-size: 20px;
 }
 .nav-panel-local__items {
-    display: flex;
+	display: flex;
 }
 .navigation {
    	display: flex;
-    counter-reset: myCounter;
+	counter-reset: myCounter;
   	list-style-type: none;
   	padding: 0;
   	margin: auto; 
 }
 .navigation__item{
 	position: relative;
-    padding-left: 30px;
-    margin-left: 20px;
-    line-height: 1.6;
-    cursor: pointer;
+	padding-left: 30px;
+	margin-left: 20px;
+	line-height: 1.6;
+	cursor: pointer;
 }
 .navigation__link {
  	text-decoration: none;
-    color: #fff; 
-    font-size: 14px;
-    font-weight: 700;  
+	color: #fff; 
+	font-size: 14px;
+	font-weight: 700;  
 }
 .navigation__link:after {
-    position: absolute;
-    top: 18px;
-    left: 14px;
-    width: 2px;
-    color: #000;   
+	position: absolute;
+	top: 18px;
+	left: 14px;
+	width: 2px;
+	color: #000;   
 }
 .navigation__link:before {
-    content: counter(myCounter);
-    counter-increment: myCounter;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 22px;
-    height: 22px;
+	content: counter(myCounter);
+	counter-increment: myCounter;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 22px;
+	height: 22px;
 	line-height: 22px;
-    padding: 0px;
-    font-weight: 700;
-    color: #000;
-    background: #fff;
-    text-align: center;
-    border-radius: 15px;
+	padding: 0px;
+	font-weight: 700;
+	color: #000;
+	background: #fff;
+	text-align: center;
+	border-radius: 15px;
 }
 .navigation__link:hover {
 	background-color: #169bd5;
@@ -78,19 +78,19 @@ body {
 }
 .container-wrap {
 	border: 1px solid rgba(242, 242, 242, 1);
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349019607843137);
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349019607843137);
 }
 .pannel-group  {
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #f2f2f2;
-    width: 125px;
-    height: 186px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 13px;
+	justify-content: center;
+	align-items: center;
+	background: #f2f2f2;
+	width: 125px;
+	height: 186px;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 13px;
 }
 .pannel-icon {
  	color: #aaa;
@@ -143,7 +143,7 @@ body {
 	flex-direction: column;
 }
 .nav-panel-local__operation p {
-    font-size: 16px;
-    text-align: center;
+	font-size: 16px;
+	text-align: center;
 }
 }
