@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Start Equipment</title>
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/start_equipment.css">
+</head>
+<body>
+	<header>
+		<div class="nav-panel">
+			<div class="nav-panel-local ">
+				<div class="nav-panel-local__operation">
+					<p>Operation start</p>
+				</div>
+				<nav class="nav-panel-local__items">
+					<ol class="navigation">
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Knowledge</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Production info</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Equipment</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Printer</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link">Send</a>
+						</li>
+					</ol>
+				</nav>
+			</div>
+			<div class="nav-panel-main container-wrap">	
+				<div class="nav-panel-main__left pannel-group">
+					<a class="pannel-icon" href="#"><i class="fas fa-times"></i><br>Cancel
+					</a>
+				</div>
+				<div class="nav-panel-main__right">
+					<div class="arrow-group">
+						<div class="pannel-group">
+							<a class="pannel-icon" href="#"><i class="fas fa-industry"></i><br>All Equipment Parameters</a>
+						</div>
+					</div>
+					<div class="arrow-group arrow-group__step">
+						<div class="arrow-block  pannel-group">
+							<a class="pannel-icon" href="#"><i class="fas fa-step-backward"></i><br>Previous Step</a>
+						</div>
+						<div class="arrow-block pannel-group">
+							<a class="pannel-icon" href="#"><i class="fas fa-step-forward"></i><br>Next Step</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="table-panel">	
+		<table class="table table-bordered table-condensed">
+  			<thead class="thead-light">
+				<tr>
+					<th style="width: 5%" scope="col"> </th>
+					<th style="width: 35%" scope="col">Parameter title</th>
+					<th style="width: 15%" scope="col">DataType</th>
+					<th style="width: 15%" scope="col">Value</th>
+					<th style="width: 15%" scope="col">IsValid</th>
+					<th style="width: 15%" scope="col">Validation error</th>
+				</tr>
+  			</thead>
+  			<tbody>
+		    	<tr>
+		      		<th scope="row">1</th>
+		    			<td>Bottle Height (in cm)</td>
+		    			<td>Int 32</td>
+		    			<td class="lock">15<i class="fas fa-lock"></i></td>
+		    			<td>
+		    				<div class="form-check">
+  								<input class="form-check-input position-static checkbox" type="checkbox" id="blankCheckbox1" value="option1">
+							</div>
+						</td>
+		    			<td></td>
+		    		</tr>
+		    		<tr>
+		      			<th scope="row">2</th>
+		      			<td>Command</td>
+		      			<td>Int 32</td>
+		      			<td>
+		      				<input class="form-control form-control-sm" type="text" placeholder="15">
+		      			</td>
+		      			<td>
+		      				<div class="form-check">
+  								<input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option1">
+							</div>
+						</td>
+		      			<td> </td>
+		    		</tr>
+		    		<tr>
+		      			<th scope="row">3</th>
+		      			<td>Filling Pressure (in PSI)</td>
+		      			<td>Int 32</td>
+		      			<td><input class="form-control form-control-sm" type="text" placeholder="15"></td>
+		      			<td>
+		      				<div class="form-check">
+  							<input class="form-check-input position-static" type="checkbox" id="blankCheckbox3" value="option1">
+							</div>
+						</td>
+		      			<td> </td>
+		    		</tr>
+		    		<tr>
+		    			<th scope="row">4</th>
+		      			<td>SetValue_Quantity</td>
+		      			<td>Int 32</td>
+		      			<td class="lock">15<i class="fas fa-lock"></i></td>
+		      			<td>
+			      			<div class="form-check">
+	  						<input class="form-check-input position-static" type="checkbox" id="blankCheckbox4" value="option1">
+						</div>
+		      			</td>
+		      			<td></td>
+		    		</tr>
+  				</tbody>
+		</table>
+	</div>
+</body>
+</html>
