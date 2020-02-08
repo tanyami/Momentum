@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+.details{
+    width: 90%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;    
+}
+.details-operation {
+    flex-basis: 49%;
+}
+.container-wrap {
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349019607843137);
+}
+.details-operation__header {
+    background: #f2f2f2; 
+    text-transform: uppercase;
+    padding: 5px 15px; 
+    margin: 0;       
+}
+h6 {
+    font-weight: bold;
+    margin-bottom: 0; 
+    font-size: 13px;   
+}
+.details-operation__body {
+    padding-top: 30px;
+    padding-right: 40px;
+}
+.fa-steam-square {
+    color: #f2f2f2;
+    font-size: 30px;
+    background: #9e9e9e;
+}
+.order-progress__data {
+    color: #aaa;
+    padding-bottom: 5px; 
+}
+.rejected {
+    color: red;
+}
+.order-progress__value {
+    font-weight: bold;
+}
+
+@media (min-width: 911px) and (max-width: 1240px){
+.details {
+    font-size: 14px;
+    
+}
+.details-operation {
+    margin-bottom: 30px; 
+}
+}
+@media (max-width: 910px){
+.details {
+   flex-direction: column;
+    font-size: 14px;
+    
+}
+.details-operation {
+    margin-bottom: 30px; 
+}
+}
